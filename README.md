@@ -1,2 +1,2 @@
 # Digital-Clock
-Projeto que estou desenvolvendo aos poucos de um relógio digital.
+Projeto que estou desenvolvendo de um relógio digital.
