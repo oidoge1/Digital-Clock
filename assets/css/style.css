@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Anton', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../image/wpp\ for\ css\ clock.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.relogio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15em; /* Usei unidades relativas para tornar o relógio responsivo 15em será calculado como 15 vezes o tamanho da fonte definido no elemento pai, resultando em uma altura proporcional ao tamanho do texto circundante. */
+  width: 30%;
+  border-radius: 3px;
+
+ 
+}
+
+.relogio div {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: rgba(5, 5, 5, .8);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, .3); /* Sombras mais sutis */
+  border-radius: 7px;
+  letter-spacing: 2px;
+}
+
+.relogio span {
+  font-weight: bold;
+  font-size: 70px; /* Aumentei o tamanho da fonte para enfatizar a hora */
+}
+
+.relogio span.tempo {
+  font-size: 15px;
+}
